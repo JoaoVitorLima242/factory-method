@@ -4,7 +4,7 @@ class UserRepository {
   }
 
   async find(query) {
-    this.dbConnection.find(query);
+    return this.dbConnection.find(query);
   }
 }
 
